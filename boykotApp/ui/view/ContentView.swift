@@ -19,7 +19,7 @@ struct ContentView: View {
             List{
                 ForEach(viewModel.brandList){brand in
                     NavigationLink(destination: DetailPage(brand: brand)){
-                            BrandLine(brand: brand)
+                        BrandLine(brand: brand)
                     }
                 }
             }.navigationTitle("Brands")
@@ -28,6 +28,7 @@ struct ContentView: View {
                         NavigationLink(destination: RegisterPage()){
                             Image(systemName: "plus")
                         }
+                        
                     }
                     
                 }.onAppear(){

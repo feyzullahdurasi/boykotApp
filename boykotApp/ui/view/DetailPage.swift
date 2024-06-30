@@ -30,7 +30,8 @@ struct DetailPage: View {
                     Button(action: {SettinngPage()}, label:{ Image(systemName: "gear")})
                 }*/
                 ToolbarItem(placement: .navigationBarTrailing){
-                    NavigationLink(destination: SettinngPage()){
+                    NavigationLink(destination: SettingPage(brand: brand)){
+                        
                         Image(systemName: "gear")
                     }
                 }

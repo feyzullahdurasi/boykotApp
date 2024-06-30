@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SettinngPage: View {
+struct SettingPage: View {
     
     @State private var tfBrandName = ""
     
@@ -64,9 +64,9 @@ struct SettinngPage: View {
         }.navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
             .onAppear{
-                tfBrandName = brand.brand_name!
-                tfBrandComment = brand.brand_comment!
-                isBoycott = brand.brand_boycott!
+                tfBrandName = brand.brand_name ?? ""
+                tfBrandComment = brand.brand_comment ?? ""
+                isBoycott = brand.brand_boycott ?? false
             }
     }
 }

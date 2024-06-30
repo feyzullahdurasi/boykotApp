@@ -20,7 +20,7 @@
 		6536EA9B2C30309E009295AB /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6536EA9A2C30309E009295AB /* RegisterViewModel.swift */; };
 		6536EA9D2C3030F7009295AB /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6536EA9C2C3030F7009295AB /* RegisterPage.swift */; };
 		6536EA9F2C303A3B009295AB /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6536EA9E2C303A3B009295AB /* SettingViewModel.swift */; };
-		65A43FC92C31284B00335F77 /* SettinngPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A43FC82C31284B00335F77 /* SettinngPage.swift */; };
+		65A43FC92C31284B00335F77 /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A43FC82C31284B00335F77 /* SettingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +38,7 @@
 		6536EA9A2C30309E009295AB /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		6536EA9C2C3030F7009295AB /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
 		6536EA9E2C303A3B009295AB /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
-		65A43FC82C31284B00335F77 /* SettinngPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettinngPage.swift; sourceTree = "<group>"; };
+		65A43FC82C31284B00335F77 /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				6536EA772C300508009295AB /* ContentView.swift */,
 				6536EA972C30144F009295AB /* DetailPage.swift */,
 				6536EA9C2C3030F7009295AB /* RegisterPage.swift */,
-				65A43FC82C31284B00335F77 /* SettinngPage.swift */,
+				65A43FC82C31284B00335F77 /* SettingPage.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -225,7 +225,7 @@
 			files = (
 				6536EA932C300B2C009295AB /* ContentViewModel.swift in Sources */,
 				6536EA782C300508009295AB /* ContentView.swift in Sources */,
-				65A43FC92C31284B00335F77 /* SettinngPage.swift in Sources */,
+				65A43FC92C31284B00335F77 /* SettingPage.swift in Sources */,
 				6536EA912C3009BF009295AB /* brands.swift in Sources */,
 				6536EA982C30144F009295AB /* DetailPage.swift in Sources */,
 				6536EA9F2C303A3B009295AB /* SettingViewModel.swift in Sources */,
