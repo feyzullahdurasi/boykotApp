@@ -19,5 +19,4 @@ class SettingViewModel {
     func delete(brand_id:String){
         refBrands.child(brand_id).removeValue()
     }
-    
 }

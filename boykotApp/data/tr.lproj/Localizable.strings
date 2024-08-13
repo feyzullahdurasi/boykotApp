@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  boykotApp
+
+  Created by Feyzullah Durası on 30.06.2024.
+  
+*/
+"Is \(brand.brand_name!) a boycott product?" = "\(brand.brand_name!) boykot ürünü mü?";
+"Brands" = "Markalar";
+"Search" = "Ara";
+"Save" = "Kaydet";
+"New Brand" = "Yeni Marka";
+"Brand Comment" = "Marka Açıklaması";
+"Is the brand a boycott product?" = "Bu marka boykot ürünü mü?";
+"Brand Name" = "Marka İsmi";
+"Settings" = "Ayarlar";
+"Save Changes" = "Değişiklikleri Kaydet";
+"If you delete it from here, it will be deleted permanently." = "Buradan silerseniz kalıcı olarak silinecektir.";
+"Cancel" = "Vazgeç";
+"Delete" = " Sil ";
+"Are you sure you want to delete?" = "Silmek istediğine emin misin?";
+"Select image" = "Görsel Seç";
+"Camera" = "Kamera";
+"Photo Gallery" = "Fotoğraf Galerisi";
+"Please select image from the image gallery or use the camera" = "Lütfen resim galerisinden resim seçin veya kamerayı kullanın";

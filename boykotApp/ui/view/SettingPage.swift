@@ -10,7 +10,7 @@ import SwiftUI
 struct SettingPage: View {
     
     @State private var tfBrandName = ""
-    
+    @State var showActionSheet:Bool = false
     @State private var tfBrandComment = ""
     @State private var isDeleteAlert = false
     @State private var isBoycott = false
@@ -21,6 +21,26 @@ struct SettingPage: View {
     
     var body: some View {
         VStack(spacing: 50) {
+            
+            Button(action: {
+                self.showActionSheet = true
+            }){
+                Image("gorselsec")
+                    .resizable()
+                    .frame(width: 300, height: 180)
+            }
+            .actionSheet(isPresented: $showActionSheet, content: { () -> ActionSheet in
+                ActionSheet(title: Text("Select image"), message: Text("Please select image from the image gallery or use the camera"), buttons: [ActionSheet.Button.default(Text("Camera"), action: {
+                    
+                }),
+                    ActionSheet.Button.default(Text("Photo Gallery"), action: {
+                    
+                })
+                ])
+                
+            })
+                
+            
             TextField("Brand Name",text: $tfBrandName)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
@@ -60,6 +80,7 @@ struct SettingPage: View {
                     .background(.blue)
                     .foregroundColor(.white)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
+                    
             }
         }.navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
