@@ -44,13 +44,7 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $isShowingScanner) {
-            BarcodeScannerView {
-                code in
-                scannedCode = code
-                isShowingScanner = false
-                print("Scanned code is: \(code)")
-                // Handle the scanned code here, e.g., search for the product
-            }
+            BarcodeScannerView()
         }
     }
 }
